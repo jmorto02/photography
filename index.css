@@ -1,0 +1,70 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar a {
+    margin: 0 10px 0 10px;
+}
+
+.bg-custom {
+    background: transparent;
+}
+
+@media only screen and (max-width: 770px) {
+    .bg-custom {
+        background:lightgray;
+    }
+}
+
+.masthead {
+    margin-top: -56px;
+    height: 100vh;
+    background: url('img/masthead-bg.jpg');
+    background-size: cover;
+    color: white;
+}
+.row {
+    padding-top: 10vh;
+}
+
+.masthead h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size:4em;
+    text-align:center;
+    margin-top: 2.8em;
+    margin-bottom: 0.5em;
+    letter-spacing:2px;
+    padding:10px;
+    background: rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .masthead h1 {
+        font-size: 3.2em;
+    }
+}
+@media only screen and (max-width: 675px) {
+    .masthead h1 {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .masthead h1 {
+        font-size: 2em;
+    }
+}
+
+.masthead p {
+    background: rgba(0, 0, 0, 0.158);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.masthead .btn {
+    margin-top: 40px;
+    margin-left: 10px; 
+    padding-left: 40px; 
+    padding-right: 40px
+}
