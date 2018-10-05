@@ -20,6 +20,7 @@
 .masthead {
     margin-top: -56px;
     height: 100vh;
+    background: #BBBBBF;
     background: url('img/masthead-bg.jpg');
     background-size: cover;
     color: white;
